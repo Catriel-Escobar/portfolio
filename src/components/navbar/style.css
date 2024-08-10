@@ -1,0 +1,15 @@
+.navbar {
+    position: fixed;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    transition: top 0.5s;
+}
+
+.navbar-hidden {
+    top: -80px; /* Ajusta la altura según tu navbar */
+  }
+  
+.navbar-visible {
+    top: 5.5rem;
+  }
